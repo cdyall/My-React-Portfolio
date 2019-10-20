@@ -11,7 +11,7 @@ import Contact from "./contact";
 const Main = () => (
     <Switch>
         <Route exact path="/" component={Home}/>
-        <Route path="/resume" component={resume}/>
+        <Route path="/resume" component={Resume}/>
         <Route path="/aboutme" component={About}/>
         <Route path="/projects" component={Project}/>
         <Route path="/contact" component={Contact}/>
