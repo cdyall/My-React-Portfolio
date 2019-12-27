@@ -11,18 +11,18 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title="Chris Dyall" scroll>
             <Navigation>
-                <Link to="/aboutme">About Me</Link>
+                {/* <Link to="/aboutme">About Me</Link> */}
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                {/* <Link to="/contact">Contact</Link> */}
             </Navigation>
         </Header>
         <Drawer title="Chris Dyall">
             <Navigation>
-                <Link to="/aboutme">About Me</Link>
+                {/* <Link to="/aboutme">About Me</Link> */}
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                {/* <Link to="/contact">Contact</Link> */}
             </Navigation>
         </Drawer>
         <Content>
